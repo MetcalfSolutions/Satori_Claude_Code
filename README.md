@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MetcalfSolutions/Satori_Claude_Code/releases"><img src="https://img.shields.io/github/v/release/MetcalfSolutions/Satori_Claude_Code?style=for-the-badge" alt="GitHub release" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Built%20for-Claude%20Code-orange.svg?style=for-the-badge" alt="Built for Claude Code" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-5.5-teal.svg?style=for-the-badge" alt="Version 5.5" /></a>
