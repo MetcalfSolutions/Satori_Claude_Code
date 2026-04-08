@@ -1,0 +1,108 @@
+{
+  "name": "satori",
+  "displayName": "Satori",
+  "version": "5.5.0",
+  "type": "claude-skill",
+  "description": "Clinically informed wisdom companion for navigating the inner life — emotions, meaning, grief, purpose, relationship, identity. Draws on eight wisdom traditions and modern clinical psychology to create conversations that produce real insight and real movement. Claude Code-native with real file-backed persistence, 17 slash commands, and background pattern synthesis.",
+  "author": {
+    "name": "Matthew Metcalf",
+    "url": "https://github.com/MetcalfSolutions"
+  },
+  "homepage": "https://github.com/MetcalfSolutions/Satori",
+  "repository": "https://github.com/MetcalfSolutions/Satori",
+  "license": "Apache-2.0",
+  "keywords": [
+    "wisdom",
+    "introspection",
+    "mental-health",
+    "coaching",
+    "stoicism",
+    "buddhism",
+    "taoism",
+    "ifs",
+    "dbt",
+    "cft",
+    "psychology",
+    "self-reflection",
+    "inner-work",
+    "claude-skill",
+    "companion",
+    "shadow-work",
+    "grief",
+    "jungian",
+    "ikigai",
+    "dream-analysis"
+  ],
+  "category": "wellness",
+  "main": "SKILL.md",
+  "skills": [
+    "./"
+  ],
+  "files": [
+    "SKILL.md",
+    "CLAUDE.md",
+    "references/",
+    "skills/",
+    "setup.sh",
+    "marketplace.json",
+    "plugin.json",
+    ".claude-plugin/plugin.json",
+    "LICENSE"
+  ],
+  "claude": {
+    "skillEntry": "SKILL.md",
+    "alwaysLoad": [
+      "CLAUDE.md",
+      "references/SOUL.md",
+      "references/clinical-spine.md",
+      "references/traditions-quickref.md"
+    ],
+    "onDemand": [
+      "references/conversation-toolkit.md",
+      "references/tone-and-voice.md",
+      "references/persistence-engine.md",
+      "references/feedback-protocol.md",
+      "references/claude-code-integration.md",
+      "references/darknight-protocol.md",
+      "references/shadow-work-protocol.md"
+    ],
+    "conditional": [
+      {
+        "file": "references/onboarding.md",
+        "when": "New user with no prior memory or .satori/ directory absent"
+      },
+      {
+        "file": "references/darknight-protocol.md",
+        "when": "Dark night / 3am despair signal detected (see clinical-spine.md)"
+      },
+      {
+        "file": "references/shadow-work-protocol.md",
+        "when": "Shadow work arc engaged via Pattern 14 or /shadow command"
+      },
+      {
+        "file": "references/traditions/[name].md",
+        "when": "Specific tradition depth needed — load only the relevant individual file"
+      }
+    ],
+    "skills": [
+      "skills/dream-walk.md",
+      "skills/shadow.md",
+      "skills/ikigai.md",
+      "skills/pattern-letter.md",
+      "skills/dark-night.md",
+      "skills/ground.md",
+      "skills/reflect.md",
+      "skills/session-review.md",
+      "skills/formulation.md",
+      "skills/status.md",
+      "skills/history.md",
+      "skills/feedback.md",
+      "skills/journal.md",
+      "skills/onboard.md",
+      "skills/traditions.md",
+      "skills/resources.md",
+      "skills/arc.md"
+    ]
+  },
+  "strict": false
+}
