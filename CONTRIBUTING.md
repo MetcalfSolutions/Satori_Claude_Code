@@ -9,7 +9,7 @@ Before contributing, read this document. Contributions that don't meet the quali
 ## What Contributions Are Welcome
 
 ### Wisdom Traditions
-New tradition entries for `references/traditions-deep.md` or `references/traditions-quickref.md`. Priority:
+New tradition files in `references/traditions/` (one file per tradition, ~30 lines each), or additions to `references/traditions-quickref.md`. Priority:
 - African philosophical traditions (Ubuntu, Akan thought, Kemetic wisdom)
 - Indigenous wisdom traditions (with appropriate cultural care — see below)
 - Lesser-represented Asian traditions (Daoism beyond Lao Tzu, Confucian ethics in practice, Zen vs. Pure Land distinctions)
