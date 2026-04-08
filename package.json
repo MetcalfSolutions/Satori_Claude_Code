@@ -30,13 +30,13 @@
     "narrative-identity",
     "motivational-interviewing"
   ],
-  "homepage": "https://github.com/MetcalfSolutions/Satori",
+  "homepage": "https://github.com/MetcalfSolutions/Satori_Claude_Code",
   "bugs": {
-    "url": "https://github.com/MetcalfSolutions/Satori/issues"
+    "url": "https://github.com/MetcalfSolutions/Satori_Claude_Code/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetcalfSolutions/Satori.git"
+    "url": "https://github.com/MetcalfSolutions/Satori_Claude_Code.git"
   },
   "license": "Apache-2.0",
   "author": {

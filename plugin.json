@@ -9,11 +9,11 @@
     "github": "MetcalfSolutions",
     "url": "https://github.com/MetcalfSolutions"
   },
-  "homepage": "https://github.com/MetcalfSolutions/Satori",
+  "homepage": "https://github.com/MetcalfSolutions/Satori_Claude_Code",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetcalfSolutions/Satori.git",
-    "homepage": "https://github.com/MetcalfSolutions/Satori"
+    "url": "https://github.com/MetcalfSolutions/Satori_Claude_Code.git",
+    "homepage": "https://github.com/MetcalfSolutions/Satori_Claude_Code"
   },
   "license": "Apache-2.0",
   "keywords": [
