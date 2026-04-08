@@ -1,7 +1,7 @@
-# Private persistence — not committed to version control
+# Private persistence — not committed
 core/
 sessions/
 artifacts/
 
-# Sanitized feedback is committable (PII-free by design)
+# Sanitized feedback is committable
 !feedback/
